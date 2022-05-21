@@ -1,0 +1,91 @@
+.body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    background-color: #e8ebe45e;
+}
+section{
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.usuario{
+    display: flex;
+    border-bottom: 1Px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+.usuario img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+}
+.maria h1{
+    margin-bottom: 0;
+}
+.maria p{
+    margin-top: 4px;
+}
+nav{
+    display: flex;
+    border-bottom: 1Px solid black;
+    justify-content: center;
+}
+button{
+    background-color: rgb(113, 59, 162);
+    padding: 12px 40px;
+    margin: 30px;
+    border-bottom: 1Px solid black;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    border-bottom: 1Px solid black;
+    align-items: center;
+    }
+.box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mensajes{
+
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.mensajes h3{
+    margin-bottom: 0%;
+    font-size: 17px;
+
+}
+.mensajes p{
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 11px;
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+}
+.Logo img{
+    width: 20%;
+    margin: 0%;
+    border-radius: 10%;
+}
+
